@@ -3,6 +3,11 @@ if (!defined('ABSPATH')) {
     wp_die();
 }
 
+/*
+Template Name: Услуга
+Template Post Type: page
+*/
+
 get_header('second');
 ?>
 
@@ -16,17 +21,17 @@ get_header('second');
                         УХОД ЗА РУКАМИ И НОГАМИ
                     </h2>
                     <div class="services-hero__text">
-                        Посещая Beauty Lounge, Вы можете быть уверены: внешне модный и красивый маникюр или педикюр будет ещё и воплощением здоровых ногтей и кожи.
+                        Посещая Gradusy Clinic, Вы можете быть уверены: внешне модный и красивый маникюр или педикюр будет ещё и воплощением здоровых ногтей и кожи.
                     </div>
                     <div class="services-hero__subtitle">
-                        В нашем салоне представлены различные техники маникюра и педикюра:
+                        В нашей клинике представлены различные техники маникюра и педикюра:
                     </div>
                     <div class="services-hero__list">
                         <div class="services-hero__list_item">
                             <div class="services-hero__list_item_img">
                                 <picture>
                                     <source srcset="" type="image/webp">
-                                    <img src="./img/serv-1.png" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/serv-1.png" alt="">
                                 </picture>
                             </div>
                             <div class="services-hero__list_item_name">Классический
@@ -36,7 +41,7 @@ get_header('second');
                             <div class="services-hero__list_item_img">
                                 <picture>
                                     <source srcset="" type="image/webp">
-                                    <img src="./img/serv-2.png" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/serv-2.png" alt="">
                                 </picture>
                             </div>
                             <div class="services-hero__list_item_name">Пилочный</div>
@@ -45,7 +50,7 @@ get_header('second');
                             <div class="services-hero__list_item_img">
                                 <picture>
                                     <source srcset="" type="image/webp">
-                                    <img src="./img/serv-3.png" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/serv-3.png" alt="">
                                 </picture>
                             </div>
                             <div class="services-hero__list_item_name">Комбинированный</div>
@@ -54,7 +59,7 @@ get_header('second');
                             <div class="services-hero__list_item_img">
                                 <picture>
                                     <source srcset="" type="image/webp">
-                                    <img src="./img/serv-4.png" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/serv-4.png" alt="">
                                 </picture>
                             </div>
                             <div class="services-hero__list_item_name">Аппаратный</div>
@@ -63,7 +68,7 @@ get_header('second');
                             <div class="services-hero__list_item_img">
                                 <picture>
                                     <source srcset="" type="image/webp">
-                                    <img src="./img/serv-5.png" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/serv-5.png" alt="">
                                 </picture>
                             </div>
                             <div class="services-hero__list_item_name">Мужской</div>
@@ -72,7 +77,7 @@ get_header('second');
                             <div class="services-hero__list_item_img">
                                 <picture>
                                     <source srcset="" type="image/webp">
-                                    <img src="./img/serv-6.png" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/serv-6.png" alt="">
                                 </picture>
                             </div>
                             <div class="services-hero__list_item_name">Детский</div>
@@ -84,7 +89,7 @@ get_header('second');
                 <div class="fill__wr">
                     <a href="#" class="fill__btn">
                         <div class="fill__btn_icon">
-                            <img src="../img/icons/wh.svg" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>./img/icons/wh.svg" alt="">
                         </div>
                         <div class="fill__btn_text">Записаться на визит</div>
                     </a>
@@ -98,7 +103,7 @@ get_header('second');
                     <div class="services-serv__head">
                         <h2 class="services-serv__head_title section__title">НАШИ ПРЕИМУЩЕСТВА</h2>
                         <div class="services-serv__head_text">
-                            Мастера Beauty Lounge хорошо знают линии профессиональной косметики и как применять её для улучшения состояния ногтей и кожи рук и стоп.
+                            Мастера Gradusy Clinic хорошо знают линии профессиональной косметики и как применять её для улучшения состояния ногтей и кожи рук и стоп.
                         </div>
                     </div>
                     <div class="services-serv__body">
@@ -147,13 +152,13 @@ get_header('second');
                             <div class="services-wr__body_brands_item">
                                 <picture>
                                     <source srcset="" type="image/webp">
-                                    <img src="./img/srv-br-1.png" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/srv-br-1.png" alt="">
                                 </picture>
                             </div>
                             <div class="services-wr__body_brands_item">
                                 <picture>
                                     <source srcset="" type="image/webp">
-                                    <img src="./img/srv-br-2.png" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/srv-br-2.png" alt="">
                                 </picture>
                             </div>
                         </div>
@@ -161,13 +166,13 @@ get_header('second');
                             <div class="services-wr__body_content_img">
                                 <picture>
                                     <source srcset="" type="image/webp">
-                                    <img src="./img/serv-wr.png" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/serv-wr.png" alt="">
                                 </picture>
                             </div>
                             <div class="services-wr__body_content_descr">
                                 <h3 class="services-wr__body_content_descr_head">Подология</h3>
                                 <div class="services-wr__body_content_descr_text">
-                                    Наши специалисты по маникюру и педикюру имеют глубокие знания, необходимые для сохранения здоровья Ваших рук и ног. В салоне есть два действующих подолога – Анна Анищенко и Светлана Корзинина. Специалисты в совершенстве влафдеют техникой аппаратного педикюра и умеют применять её для решения самых разных проблем: вросшие ногти, натоптыши, мозоли и ортопедическое здоровье.
+                                    Наши специалисты по маникюру и педикюру имеют глубокие знания, необходимые для сохранения здоровья Ваших рук и ног. В клинике есть два действующих подолога – Анна Анищенко и Светлана Корзинина. Специалисты в совершенстве влафдеют техникой аппаратного педикюра и умеют применять её для решения самых разных проблем: вросшие ногти, натоптыши, мозоли и ортопедическое здоровье.
                                 </div>
                             </div>
                         </div>
@@ -179,16 +184,16 @@ get_header('second');
             <div class="container">
                 <div class="services-sec__in">
                     <h2 class="services-sec__head section__title dark">
-                        БЕЗОПАСНОСТЬ в Beauty Lounge
+                        БЕЗОПАСНОСТЬ в Gradusy Clinic
                     </h2>
                     <div class="services-sec__text">
                         Для Вашего комфорта и безопасности на втором этаже нашего пространства оборудованы отдельные кабинеты для маникюра и педикюра.
-                        Мы с ответственностью подходим к здоровью каждого клиента и всей нашей команды. Поэтому в целях профилактики в салоне соблюдаются все необходимые меры безопасности:
+                        Мы с ответственностью подходим к здоровью каждого клиента и всей нашей команды. Поэтому в целях профилактики в клинике соблюдаются все необходимые меры безопасности:
                     </div>
                     <div class="services-sec__list">
                         <div class="services-sec__item">
                             <div class="services-sec__item_img">
-                                <img src="./img/sec-1.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/sec-1.svg" alt="">
                             </div>
                             <div class="services-sec__item_text">
                                 Сотрудники проводят дезинфекцию рабочих поверхностей после каждого гостя.
@@ -196,7 +201,7 @@ get_header('second');
                         </div>
                         <div class="services-sec__item">
                             <div class="services-sec__item_img">
-                                <img src="./img/sec-2.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/sec-2.svg" alt="">
                             </div>
                             <div class="services-sec__item_text">
                                 Кабинеты обрабатываются медицинскими ультрафиолетовыми бактерицидными рециркуляторами.
@@ -204,7 +209,7 @@ get_header('second');
                         </div>
                         <div class="services-sec__item">
                             <div class="services-sec__item_img">
-                                <img src="./img/sec-3.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/sec-3.svg" alt="">
                             </div>
                             <div class="services-sec__item_text">
                                 После окончания процедуры не только использованные, но и все находящиеся на рабочем столе инструменты проходят несколько последовательных этапов обработки.
@@ -212,7 +217,7 @@ get_header('second');
                         </div>
                         <div class="services-sec__item">
                             <div class="services-sec__item_img">
-                                <img src="./img/sec-4.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/sec-4.svg" alt="">
                             </div>
                             <div class="services-sec__item_text">
                                 Используются одноразовые комплекты для маникюра/педикюра и белья.
@@ -231,49 +236,49 @@ get_header('second');
                     <div class="services-pr__body_item">
                         <picture>
                             <source srcset="" type="image/webp">
-                            <img src="./img/pr-1.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/pr-1.png" alt="">
                         </picture>
                     </div>
                     <div class="services-pr__body_item">
                         <picture>
                             <source srcset="" type="image/webp">
-                            <img src="./img/pr-2.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/pr-2.png" alt="">
                         </picture>
                     </div>
                     <div class="services-pr__body_item">
                         <picture>
                             <source srcset="" type="image/webp">
-                            <img src="./img/pr-3.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/pr-3.png" alt="">
                         </picture>
                     </div>
                     <div class="services-pr__body_item">
                         <picture>
                             <source srcset="" type="image/webp">
-                            <img src="./img/pr-4.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/pr-4.png" alt="">
                         </picture>
                     </div>
                     <div class="services-pr__body_item">
                         <picture>
                             <source srcset="" type="image/webp">
-                            <img src="./img/pr-5.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/pr-5.png" alt="">
                         </picture>
                     </div>
                     <div class="services-pr__body_item">
                         <picture>
                             <source srcset="" type="image/webp">
-                            <img src="./img/pr-6.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/pr-6.png" alt="">
                         </picture>
                     </div>
                     <div class="services-pr__body_item">
                         <picture>
                             <source srcset="" type="image/webp">
-                            <img src="./img/pr-7.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/pr-7.png" alt="">
                         </picture>
                     </div>
                     <div class="services-pr__body_item">
                         <picture>
                             <source srcset="" type="image/webp">
-                            <img src="./img/pr-8.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/pr-8.png" alt="">
                         </picture>
                     </div>
                 </div>
@@ -283,7 +288,7 @@ get_header('second');
             <div class="fill__wr">
                 <a href="#" class="fill__btn">
                     <div class="fill__btn_icon">
-                        <img src="../img/icons/wh.svg" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>./img/icons/wh.svg" alt="">
                     </div>
                     <div class="fill__btn_text">Записаться на визит</div>
                 </a>
@@ -393,7 +398,7 @@ get_header('second');
                 <div class="services-price__action_wr">
                     <a href="#" download="#" class="services-price__action_btn">
                         <div class="services-price__action_btn_icon">
-                            <img src="../img/icons/pdf-icon.svg" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>./img/icons/pdf-icon.svg" alt="">
                         </div>
                         <div class="services-price__action_btn_text">Скачать прайс</div>
 
@@ -408,7 +413,7 @@ get_header('second');
                     <div class="services-team__head">
                         <h2 class="services-team__head_title section__title dark">
                             мастера <br>
-                            Beauty Lounge
+                            Gradusy Clinic
                         </h2>
                         <div class="services-team__head_subhead">
                             <a href="#" class="arrow-link dark">
@@ -422,7 +427,7 @@ get_header('second');
                             <div class="services-team__body_slider_wr swiper-wrapper">
                                 <div class="services-team__body_slider_sl swiper-slide">
                                     <div class="services-team__body_slider_sl_img">
-                                        <img src="../img/master.png" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>./img/master.png" alt="">
                                     </div>
                                     <div class="services-team__body_slider_sl_body">
                                         <div class="services-team__body_slider_sl_body_pr">косметолог
@@ -434,7 +439,7 @@ get_header('second');
                                 </div>
                                 <div class="services-team__body_slider_sl swiper-slide">
                                     <div class="services-team__body_slider_sl_img">
-                                        <img src="../img/master.png" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>./img/master.png" alt="">
                                     </div>
                                     <div class="services-team__body_slider_sl_body">
                                         <div class="services-team__body_slider_sl_body_pr">косметолог
@@ -446,7 +451,7 @@ get_header('second');
                                 </div>
                                 <div class="services-team__body_slider_sl swiper-slide">
                                     <div class="services-team__body_slider_sl_img">
-                                        <img src="../img/master.png" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>./img/master.png" alt="">
                                     </div>
                                     <div class="services-team__body_slider_sl_body">
                                         <div class="services-team__body_slider_sl_body_pr">косметолог
@@ -458,7 +463,7 @@ get_header('second');
                                 </div>
                                 <div class="services-team__body_slider_sl swiper-slide">
                                     <div class="services-team__body_slider_sl_img">
-                                        <img src="../img/master.png" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>./img/master.png" alt="">
                                     </div>
                                     <div class="services-team__body_slider_sl_body">
                                         <div class="services-team__body_slider_sl_body_pr">косметолог
@@ -470,7 +475,7 @@ get_header('second');
                                 </div>
                                 <div class="services-team__body_slider_sl swiper-slide">
                                     <div class="services-team__body_slider_sl_img">
-                                        <img src="../img/master.png" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>./img/master.png" alt="">
                                     </div>
                                     <div class="services-team__body_slider_sl_body">
                                         <div class="services-team__body_slider_sl_body_pr">косметолог
@@ -573,151 +578,8 @@ get_header('second');
         </div>
     </div>
 </main>
-<footer class="footer">
-    <div class="container">
-        <div class="footer__top">
-            <h1 class="footer__top_title">Связаться с нами</h1>
-            <a href="mailto:" class="footer__top_link">
-                <div class="footer__top_link_name">Напишите нам <span>на EMAIL</span></div>
-                <div class="footer__top_link_icon"></div>
-            </a>
-        </div>
-        <div class="footer__mid">
-            <div class="footer__mid_main">
-                <ul class="footer__mid_main_nav">
-                    <li class="footer__mid_main_nav_item"><a href="#">Акции</a></li>
-                    <li class="footer__mid_main_nav_item"><a href="#">Клиентские дни</a></li>
-                    <li class="footer__mid_main_nav_item"><a href="#">Услуги</a></li>
-                    <li class="footer__mid_main_nav_item"><a href="#">Прайс</a></li>
-                    <li class="footer__mid_main_nav_item"><a href="#">Бутик</a></li>
-                    <li class="footer__mid_main_nav_item"><a href="#">О салоне</a></li>
-                    <li class="footer__mid_main_nav_item"><a href="#">Новости</a></li>
-                    <li class="footer__mid_main_nav_item"><a href="#">Контакт</a></li>
-                </ul>
-                <div class="footer__mid_main_soc">
-                    <a href="#" class="footer__mid_main_soc_item">WHATSAPP</a>
-                    <a href="#" class="footer__mid_main_soc_item">VK</a>
-                    <a href="#" class="footer__mid_main_soc_item">TELEGRAM</a>
-                    <a href="#" class="footer__mid_main_soc_item">YOUTUBE</a>
-                </div>
-            </div>
-            <div class="footer__mid_ex">
-                <a href="#" class="footer__mid_ex_policy">Политика конфиденциальности
-                </a>
-                <a href="#" class="footer__mid_ex_license">ЛИЦЕНЗИИ И ДОКУМЕНТЫ</a>
-            </div>
-        </div>
-        <div class="footer__bottom">
-            ©COPYRIGHT 2022. BEAUTY LOUNGE SALON & BOUTIQUE. Powered by Jr.
-        </div>
-    </div>
-</footer>
+<!-- /main -->
+
 <!-- footer -->
-<div class="menu">
-    <div class="container">
-        <div class="menu__in">
-            <ul class="menu__part">
-                <li class="menu__part_item active">
-                    <a class="menu__part_item_link" href="#">Услуги</a>
-                    <div class="menu__part_item_arrow active"></div>
-                    <ul class="menu__part_submenu">
-                        <li class="menu__part_submenu_item"><a href="#">Эстетическая косметология</a></li>
-                        <li class="menu__part_submenu_item"><a href="#">Аппаратная косметология </a></li>
-                        <li class="menu__part_submenu_item"><a href="#">Лазерная эпиляция и Депиляция</a></li>
-                        <li class="menu__part_submenu_item"><a href="#">Процедуры по телу</a></li>
-                        <li class="menu__part_submenu_item"><a href="#">Массажи лица</a></li>
-                        <li class="menu__part_submenu_item"><a href="#">Инъекционная косметология Уход за руками и ногами </a></li>
-                        <li class="menu__part_submenu_item"><a href="#">Make up / brow & lashes</a></li>
-                        <li class="menu__part_submenu_item"><a href="#">Процедуры для волос</a></li>
-                        <li class="menu__part_submenu_item"><a href="#">Перманент</a></li>
-                    </ul>
-                </li>
-
-            </ul>
-            <ul class="menu__part">
-                <li class="menu__part_item">
-                    <a href="#" class="menu__part_item_link">Акции</a>
-                </li>
-                <li class="menu__part_item">
-                    <a href="#" class="menu__part_item_link">Клиентские дни</a>
-                </li>
-                <li class="menu__part_item">
-                    <a href="#" class="menu__part_item_link">Прайс</a>
-                </li>
-                <li class="menu__part_item">
-                    <a href="#" class="menu__part_item_link">Бутик</a>
-                </li>
-                <li class="menu__part_item">
-                    <a href="#" class="menu__part_item_link">О салоне</a>
-                </li>
-                </li>
-            </ul>
-            <ul class="menu__part">
-                <li class="menu__part_item">
-                    <a href="#" class="menu__part_item_link">Новости</a>
-                </li>
-                <li class="menu__part_item">
-                    <a href="#" class="menu__part_item_link">Контакты</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-
-
-
-
-
-
-    <footer class="footer">
-        <div class="container">
-            <div class="footer__top">
-                <h1 class="footer__top_title">Связаться с нами</h1>
-                <a href="mailto:" class="footer__top_link">
-                    <div class="footer__top_link_name">Напишите нам <span>на EMAIL</span></div>
-                    <div class="footer__top_link_icon"></div>
-                </a>
-            </div>
-            <div class="footer__mid">
-                <div class="footer__mid_main">
-                    <ul class="footer__mid_main_nav">
-                        <li class="footer__mid_main_nav_item"><a href="#">Акции</a></li>
-                        <li class="footer__mid_main_nav_item"><a href="#">Клиентские дни</a></li>
-                        <li class="footer__mid_main_nav_item"><a href="#">Услуги</a></li>
-                        <li class="footer__mid_main_nav_item"><a href="#">Прайс</a></li>
-                        <li class="footer__mid_main_nav_item"><a href="#">Бутик</a></li>
-                        <li class="footer__mid_main_nav_item"><a href="#">О салоне</a></li>
-                        <li class="footer__mid_main_nav_item"><a href="#">Новости</a></li>
-                        <li class="footer__mid_main_nav_item"><a href="#">Контакт</a></li>
-                    </ul>
-                    <div class="footer__mid_main_soc">
-                        <a href="#" class="footer__mid_main_soc_item">WHATSAPP</a>
-                        <a href="#" class="footer__mid_main_soc_item">VK</a>
-                        <a href="#" class="footer__mid_main_soc_item">TELEGRAM</a>
-                        <a href="#" class="footer__mid_main_soc_item">YOUTUBE</a>
-                    </div>
-                </div>
-                <div class="footer__mid_ex">
-                    <a href="#" class="footer__mid_ex_policy">Политика конфиденциальности
-                    </a>
-                    <a href="#" class="footer__mid_ex_license">ЛИЦЕНЗИИ И ДОКУМЕНТЫ</a>
-                </div>
-            </div>
-            <div class="footer__bottom">
-                ©COPYRIGHT 2022. BEAUTY LOUNGE SALON & BOUTIQUE. Powered by Jr.
-            </div>
-        </div>
-    </footer>
-
-</div>
-
-
-
-
-
-
-
-</div>
-<script src="js/app.min.js"></script>
-</body>
-
-</html>
+<?php get_footer(); ?>
+<!-- /footer -->

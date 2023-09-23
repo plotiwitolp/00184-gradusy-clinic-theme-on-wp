@@ -101,7 +101,7 @@ get_header('first');
         <div class="container">
             <div class="about__in">
                 <h2 class="about__head section__title">
-                    О САЛОНЕ
+                    О КЛИНИКЕ
                 </h2>
                 <div class="about__body">
                     <div class="about__body_content">
@@ -110,7 +110,7 @@ get_header('first');
                         </h3>
                         <div class="about__body_content_text">
                             <p>
-                                Beauty Lounge — центр красоты в самой атмосферной части Петроградской стороны. Лахтинская, 14 — по этому адресу располагается одно из самых трендовых бьюти-мест Петербурга. Домашняя атмосфера, высокий профессионализм сотрудников и уход от концепции простого салона в сторону настоящего многофункционального центра красоты и здоровья делают Beauty Lounge одним из лидеров на рынке индустрии, которому оказывает доверие самая взыскательная публика северной столицы.
+                                Gradusy Clinic — центр красоты в самой атмосферной части Петроградской стороны. Лахтинская, 14 — по этому адресу располагается одно из самых трендовых бьюти-мест Петербурга. Домашняя атмосфера, высокий профессионализм сотрудников и уход от концепции простой клинике в сторону настоящего многофункционального центра красоты и здоровья делают Gradusy Clinic одним из лидеров на рынке индустрии, которому оказывает доверие самая взыскательная публика северной столицы.
                             </p>
                         </div>
                         <ul class="about__body_content_list">
@@ -152,7 +152,7 @@ get_header('first');
                             </li>
                         </ul>
                         <a href="#" class="about__body_content_link">
-                            <div class="about__body_content_link_text">подробнее о салоне</div>
+                            <div class="about__body_content_link_text">подробнее о клинике</div>
                             <div class="about__body_content_link_icon"></div>
                         </a>
                     </div>
@@ -464,7 +464,7 @@ get_header('first');
         <div class="container">
             <div class="promo__in">
                 <h2 class="promo__head section__title dark">
-                    Акции и скидки
+                    Акции и спецпредложения
                 </h2>
                 <div class="promo__body">
                     <a href="#" class="promo__body_item">
@@ -572,100 +572,8 @@ get_header('first');
         </div>
     </div>
 </main>
-<!-- main -->
-
+<!-- /main -->
 
 <!-- footer -->
-<footer class="footer">
-    <div class="container">
-        <div class="footer__top">
-            <h1 class="footer__top_title">Связаться с нами</h1>
-            <a href="mailto:" class="footer__top_link">
-                <div class="footer__top_link_name">Напишите нам <span>на EMAIL</span></div>
-                <div class="footer__top_link_icon"></div>
-            </a>
-        </div>
-        <div class="footer__mid">
-            <div class="footer__mid_main">
-                <ul class="footer__mid_main_nav">
-                    <li class="footer__mid_main_nav_item"><a href="#">Акции</a></li>
-                    <li class="footer__mid_main_nav_item"><a href="#">Клиентские дни</a></li>
-                    <li class="footer__mid_main_nav_item"><a href="#">Услуги</a></li>
-                    <li class="footer__mid_main_nav_item"><a href="#">Прайс</a></li>
-                    <li class="footer__mid_main_nav_item"><a href="#">Бутик</a></li>
-                    <li class="footer__mid_main_nav_item"><a href="#">О салоне</a></li>
-                    <li class="footer__mid_main_nav_item"><a href="#">Новости</a></li>
-                    <li class="footer__mid_main_nav_item"><a href="#">Контакт</a></li>
-                </ul>
-                <div class="footer__mid_main_soc">
-                    <a href="#" class="footer__mid_main_soc_item">WHATSAPP</a>
-                    <a href="#" class="footer__mid_main_soc_item">VK</a>
-                    <a href="#" class="footer__mid_main_soc_item">TELEGRAM</a>
-                    <a href="#" class="footer__mid_main_soc_item">YOUTUBE</a>
-                </div>
-            </div>
-            <div class="footer__mid_ex">
-                <a href="#" class="footer__mid_ex_policy">Политика конфиденциальности
-                </a>
-                <a href="#" class="footer__mid_ex_license">ЛИЦЕНЗИИ И ДОКУМЕНТЫ</a>
-            </div>
-        </div>
-        <div class="footer__bottom">
-            ©COPYRIGHT 2022. BEAUTY LOUNGE SALON & BOUTIQUE. Powered by Jr.
-        </div>
-    </div>
-</footer>
-<!-- footer -->
-<div class="menu">
-    <div class="container">
-        <div class="menu__in">
-            <ul class="menu__part">
-                <li class="menu__part_item active">
-                    <a class="menu__part_item_link" href="#">Услуги</a>
-                    <div class="menu__part_item_arrow active"></div>
-                    <ul class="menu__part_submenu">
-                        <li class="menu__part_submenu_item"><a href="#">Эстетическая косметология</a></li>
-                        <li class="menu__part_submenu_item"><a href="#">Аппаратная косметология </a></li>
-                        <li class="menu__part_submenu_item"><a href="#">Лазерная эпиляция и Депиляция</a></li>
-                        <li class="menu__part_submenu_item"><a href="#">Процедуры по телу</a></li>
-                        <li class="menu__part_submenu_item"><a href="#">Массажи лица</a></li>
-                        <li class="menu__part_submenu_item"><a href="#">Инъекционная косметология Уход за руками и ногами </a></li>
-                        <li class="menu__part_submenu_item"><a href="#">Make up / brow & lashes</a></li>
-                        <li class="menu__part_submenu_item"><a href="#">Процедуры для волос</a></li>
-                        <li class="menu__part_submenu_item"><a href="#">Перманент</a></li>
-                    </ul>
-                </li>
-
-            </ul>
-            <ul class="menu__part">
-                <li class="menu__part_item">
-                    <a href="#" class="menu__part_item_link">Акции</a>
-                </li>
-                <li class="menu__part_item">
-                    <a href="#" class="menu__part_item_link">Клиентские дни</a>
-                </li>
-                <li class="menu__part_item">
-                    <a href="#" class="menu__part_item_link">Прайс</a>
-                </li>
-                <li class="menu__part_item">
-                    <a href="#" class="menu__part_item_link">Бутик</a>
-                </li>
-                <li class="menu__part_item">
-                    <a href="#" class="menu__part_item_link">О салоне</a>
-                </li>
-                </li>
-            </ul>
-            <ul class="menu__part">
-                <li class="menu__part_item">
-                    <a href="#" class="menu__part_item_link">Новости</a>
-                </li>
-                <li class="menu__part_item">
-                    <a href="#" class="menu__part_item_link">Контакты</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-
-
-
-    <?php get_footer(); ?>
+<?php get_footer(); ?>
+<!-- /footer -->

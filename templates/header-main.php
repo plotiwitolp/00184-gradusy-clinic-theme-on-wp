@@ -6,8 +6,8 @@ if (!defined('ABSPATH')) {
 <header class="header">
     <div class="container">
         <div class="header__in">
-            <a href="#" class="header__logo">
-                <img src="<?php echo get_template_directory_uri() ?>/img/icons/logo.png" alt="logo">
+            <a href="<?php echo home_url(); ?>" class="header__logo">
+                <img src="<?php echo get_template_directory_uri() ?>/img/icons/logo-04.png" alt="logo">
             </a>
             <ul class="header__list">
                 <li class="header__item"><a href="#">Мы на карте</a></li>

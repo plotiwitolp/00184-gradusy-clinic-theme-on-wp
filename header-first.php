@@ -17,5 +17,5 @@
 <body>
     <div class="wrapper">
         <!-- header -->
-        <?php get_template_part('templates/header-nav'); ?>
-        <!-- header -->
+        <?php get_template_part('templates/header-main'); ?>
+        <!-- /header -->

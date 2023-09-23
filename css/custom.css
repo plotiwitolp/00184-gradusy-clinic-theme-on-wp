@@ -21,8 +21,27 @@
   color: #2b2a28;
 }
 
+.header__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .header__logo img {
-  max-height: 19px;
+  height: 100px;
+  width: auto;
+}
+
+.header__in {
+  padding: 5px 0;
+}
+
+.menu {
+  padding-top: 140px;
+}
+
+.main {
+  padding-top: 85px;
 }
 
 .about__body_content_link_icon,
@@ -45,7 +64,12 @@
 }
 
 @media (max-width: 768px) {
+  .header__logo img {
+    height: 85px;
+  }
   .header__list {
+    margin-top: 5px;
+    padding: 8px 0;
     border-top: 1px solid #d9d9d9;
   }
   .footer__top_title {
@@ -124,4 +148,19 @@
   .footer__mid_main {
     padding: 10px 0;
   }
+  .main {
+    padding-top: 125px;
+  }
+}
+body.customize-support {
+  height: auto;
+}
+
+body.customize-support .header {
+  top: 32px;
+}
+
+.menu__part_submenu {
+  height: 100%;
+  overflow: initial;
 }

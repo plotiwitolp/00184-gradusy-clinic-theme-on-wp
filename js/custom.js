@@ -40,20 +40,32 @@
     });
 
     // слайдер "клиентские дни"
-    const client__body_slider = new Swiper('.client__body_slider', {
-      slidesPerView: 1,
-      spaceBetween: 20,
-      breakpoints: {
-        1000: { spaceBetween: 20, slidesPerView: 4 },
-        620: { slidesPerView: 2, spaceBetween: 10 },
-      },
-    });
+    // const clientBodySlider = new Swiper('.client__body_slider', {
+    //   slidesPerView: 1,
+    //   spaceBetween: 20,
+    //   breakpoints: {
+    //     1000: { spaceBetween: 20, slidesPerView: 4 },
+    //     620: { slidesPerView: 2, spaceBetween: 10 },
+    //   },
+    // });
 
     // слайдер "онлайн бутик"
     const online__body_slider = new Swiper('.online__body_slider', {
       slidesPerView: 1,
       spaceBetween: 15,
       breakpoints: { 1200: { slidesPerView: 4, spaceBetween: 20 }, 768: { slidesPerView: 3, spaceBetween: 20 } },
+    });
+
+    // верхнее меню
+    $('.header__burger').on('click', function () {
+      $('.header__burger').toggleClass('active');
+      $('.menu').toggleClass('active');
+    });
+
+    // подменю верхнего меню
+    $('.menu__part_item_arrow').on('click', function () {
+      $(this).toggleClass('active');
+      $(this).next().slideToggle('700');
     });
   });
 })(jQuery);
