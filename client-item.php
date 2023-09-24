@@ -6,7 +6,7 @@ if (!defined('ABSPATH')) {
 Template Name: Клиентские дни (item)
 Template Post Type: page
 */
-get_header('second');
+get_header('first');
 ?>
 
 <!-- main -->

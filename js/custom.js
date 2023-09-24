@@ -25,8 +25,17 @@
       },
     });
 
+    // слайдер "Подробнее о клинике"
+    const aboutBodySlider = new Swiper('.about__body_slider_el', {
+      slidesPerView: 1,
+      spaceBetween: 15,
+      breakpoints: {
+        768: { spaceBetween: 25 },
+      },
+    });
+
     // слайдер "услуги"
-    const serv__body_slider = new Swiper('.serv__body_slider', {
+    const servBodySlider = new Swiper('.serv__body_slider', {
       slidesPerView: 1,
       spaceBetween: 15,
       scrollbar: {
@@ -40,20 +49,45 @@
     });
 
     // слайдер "клиентские дни"
-    // const clientBodySlider = new Swiper('.client__body_slider', {
-    //   slidesPerView: 1,
-    //   spaceBetween: 20,
-    //   breakpoints: {
-    //     1000: { spaceBetween: 20, slidesPerView: 4 },
-    //     620: { slidesPerView: 2, spaceBetween: 10 },
-    //   },
-    // });
+    const clientBodySlider = new Swiper('.client__body_slider', {
+      slidesPerView: 1,
+      spaceBetween: 20,
+      breakpoints: {
+        1000: { spaceBetween: 20, slidesPerView: 4 },
+        620: { slidesPerView: 2, spaceBetween: 10 },
+      },
+    });
 
     // слайдер "онлайн бутик"
-    const online__body_slider = new Swiper('.online__body_slider', {
+    const onlineBodySlider = new Swiper('.online__body_slider', {
       slidesPerView: 1,
       spaceBetween: 15,
-      breakpoints: { 1200: { slidesPerView: 4, spaceBetween: 20 }, 768: { slidesPerView: 3, spaceBetween: 20 } },
+      breakpoints: {
+        1200: { slidesPerView: 4, spaceBetween: 20 },
+        768: { slidesPerView: 3, spaceBetween: 20 },
+      },
+    });
+
+    // слайдер "наша команда"
+    const aboutPageTeamSlider = new Swiper('.about-page__team_slider', {
+      slidesPerView: 1,
+      spaceBetween: 15,
+      breakpoints: {
+        1000: { spaceBetween: 10, slidesPerView: 6 },
+        768: { slidesPerView: 4, spaceBetween: 10 },
+        620: { slidesPerView: 2, spaceBetween: 10 },
+      },
+    });
+
+    // слайдер "атмосфера"
+    const aboutPageAtmSlider = new Swiper('.about-page__atm_slider', {
+      slidesPerView: 1,
+      spaceBetween: 5,
+      breakpoints: {
+        1000: { spaceBetween: 10, slidesPerView: 4 },
+        768: { slidesPerView: 4, spaceBetween: 3 },
+        620: { slidesPerView: 2, spaceBetween: 2 },
+      },
     });
 
     // верхнее меню
